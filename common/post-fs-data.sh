@@ -8,9 +8,6 @@ MODDIR=${0%/*}
 
 # This script will be executed in post-fs-data mode
 
-# Swicht SElinux to permissive
-echo 0 > /sys/fs/selinux/enforce
-
 # Delete and disable system logs on dropbox
 rm /data/system/dropbox/*
 rm /data/system/usagestats/daily/*
