@@ -1,0 +1,95 @@
+# This file will be read by resetprop
+# Example: Change dpi
+# ro.sf.lcd_density=320
+# Force launcher in memory
+ro.HOME_APP_ADJ=1
+# Power save
+pm.sleep_mode=2
+power.saving.mode=1
+ro.ril.disable.power.collapse=0
+# DNS
+net.dns1=1.1.1.1
+net.dns2=1.0.0.1
+net.rmnet0.dns1=1.1.1.1
+net.rmnet0.dns2=1.0.0.1
+net.ppp0.dns1=1.1.1.1
+net.ppp0.dns2=1.0.0.1
+net.wlan0.dns1=1.1.1.1
+net.wlan0.dns2=1.0.0.1
+net.eth0.dns1=1.1.1.1
+net.eth0.dns2=1.0.0.1
+net.gprs.dns1=1.1.1.1
+net.gprs.dns2=1.0.0.1
+# Better response and speed
+windowsmgr.max_events_per_sec=300
+ro.max.fling_velocity=13800 
+ro.min.fling_velocity=10500
+# Misc 1
+persist.sys.scrollingcache=3
+ro.media.enc.jpeg.quality=100
+ro.bluetooth.remote.autoconnect=true
+ro.bluetooth.request.master=true
+ro.miui.region=AR
+ro.miui.wifi.region=GB
+ro.miui.mcc=9998
+ro.miui.mnc=9999
+drm.service.enabled=true
+ro.adb.secure=1
+# More volume steps in the call
+ro.config.media_vol_steps=30
+ro.config.vc_call_vol_steps=14
+persist.adb.notify=0
+# Logcat disable
+logcat.live=disable
+# Disable the error checking
+ro.kernel.android.checkjni = 0 
+ro.kernel.checkjni=0
+# Disables the sending of usage data
+ro.config.nocheckin = 1 
+
+#Render UI with GPU
+debug.sf.hw=1
+#debug.composition.type=gpu
+debug.composition.type=c2d
+persist.sys.composition.type=c2d
+persist.sys.ui.hw=1
+ro.sf.compbypass.enable=0
+# Graphics aceleration
+debug.performance.tuning=1
+video.accelerate.hw=1
+
+# Disable stats logging & monitoring
+debug.atrace.tags.enableflags=0
+profiler.force_disable_ulog=true
+profiler.force_disable_err_rpt=true
+profiler.force_disable_ulog=1
+profiler.force_disable_err_rpt=1
+ro.config.nocheckin=1
+debugtool.anrhistory=0
+ro.com.google.locationfeatures=0
+ro.com.google.networklocation=0
+profiler.debugmonitor=false
+profiler.launch=false
+profiler.hung.dumpdobugreport=false
+persist.service.pcsync.enable=0
+persist.service.lgospd.enable=0
+persist.sys.purgeable_assets=1
+
+# Misc 2
+sys.use_fifo_ui=1
+debug.kill_allocating_task=0
+MIN_HIDDEN_APPS=false
+ACTIVITY_INACTIVE_RESET_TIME=false
+MIN_RECENT_TASKS=false
+PROC_START_TIMEOUT=false
+CPU_MIN_CHECK_DURATION=false
+GC_TIMEOUT=false
+SERVICE_TIMEOUT=false
+MIN_CRASH_INTERVAL=false
+ENFORCE_PROCESS_LIMIT=false
+ro.config.fha_enable=true
+ro.config.dha_cached_max=16
+ro.config.dha_empty_max=32
+ro.config.dha_empty_init=32
+ro.config.dha_lmk_scale=0.990
+ro.config.dha_th_rate=1.4
