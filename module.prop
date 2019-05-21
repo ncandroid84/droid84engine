@@ -3,6 +3,4 @@ name=droid84Engine
 version=v1.0
 versionCode=100
 author=ncandroid84 @ xda-developer
-description=This module changes the status of linux to permissive,
-zipalign the whole system, and adds some optimization lines in the build.prop.
-Finally, delete and disable system logs on dropbox
+description=This module changes the status of linux to permissive,zipalign the whole system, and adds some optimization lines in the build.prop. Finally, delete and disable system logs on dropbox
